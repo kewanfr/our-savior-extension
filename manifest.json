@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Savior Extension",
+    "version": "1.0.0",
+    "description": "Extension to save our life",
+    "permissions": ["tabs", "activeTab", "storage", "declarativeContent"],
+
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
+  
